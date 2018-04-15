@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<calendar>
+    <year no ="2018">
+        <month name ="april" no = "04">
+            <day name ="Monday " date = "090418"> Nothing to do today</day>
+            <day name ="Tuesday " date = "100418"> Maths</day>
+            <day name ="Monday " date = "160418"> Cubing</day>
+            <day name ="Wednesday " date = "180418"> IT</day>
+            <day name ="Monday " date = "230418"> Nothing to do today</day>
+        </month>
+        <month name ="mai" no = "05">
+            <day name ="Monday " date = "010518"> Learn </day>
+            <day name ="Tuesday " date = "020518"> German</day>
+            <day name ="Monday " date = "080518"> Maths</day>
+            <day name ="Wednesday " date = "100518"> IT</day>
+            <day name ="Monday " date = "150518"> Chill</day>
+        </month>
+    </year>
+    <year no ="2019">
+        <month name ="november" no = "12">
+            <day name ="Sunday " date = "080418">Chill</day>
+
+        </month>
+    </year>
+</calendar>
