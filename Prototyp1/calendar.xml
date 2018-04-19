@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone = "yes" ?>
+<!DOCTYPE calendar[
+        <!ELEMENT calendar (year*)>
+        <!ELEMENT year (month*)>
+        <!ATTLIST year
+                id CDATA #REQUIRED>
+        <!ELEMENT month (day*)>
+        <!ATTLIST month
+                name CDATA #REQUIRED
+                id CDATA #REQUIRED
+                maxdays CDATA #REQUIRED>
+        <!ELEMENT day (period*)>
+        <!ATTLIST day
+                name CDATA #REQUIRED
+                date CDATA #REQUIRED>
+        <!ELEMENT period (#PCDATA)>
+        <!ATTLIST period
+                time CDATA #REQUIRED>
+        ]>
+<calendar>
+    <year id="2018">
+        <month name="january" id="01" maxdays="31">
+            <day name="Monday" date="180101">
+                <period time="00">I'm from 00-01 o'Clock</period>
+                <period time="01">I'm from 01-02 o'Clock</period>
+                <period time="12">I'm from 12-13 o'Clock</period>
+            </day>
+
+            <day name="Wendesday" date="180112">
+            </day>
+        </month>
+    </year>
+
+</calendar>
