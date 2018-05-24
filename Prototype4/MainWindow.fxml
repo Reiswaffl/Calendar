@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.GUIController">
+   <children>
+      <VBox alignment="CENTER" spacing="20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox alignment="TOP_CENTER" spacing="30.0">
+               <children>
+                  <Label prefHeight="50.0" prefWidth="185.0" text="CurrentUser" textAlignment="JUSTIFY">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Button mnemonicParsing="false" prefHeight="4.0" prefWidth="175.0" text="Switch User">
+                     <font>
+                        <Font size="18.0" />
+                     </font></Button>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="94.0" layoutY="101.0" AnchorPane.bottomAnchor="850.0" AnchorPane.leftAnchor="95.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="75.0">
+               <children>
+                  <Label fx:id="datetime" alignment="TOP_CENTER" layoutX="94.0" layoutY="101.0" prefHeight="70.0" prefWidth="563.0" text="Datum, Zeit">
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="TOP_CENTER">
+               <children>
+                  <VBox spacing="5.0">
+                     <children>
+                        <Label fx:id="currentDay" text="Monday">
+                            <font>
+                                <Font size="24" />
+                            </font></Label>
+
+                        <Label fx:id="currentDayInfo" alignment="TOP_LEFT" prefHeight="396.0" prefWidth="250.0" text="DayInfo">
+                           <font>
+                              <Font size="18.0" />
+                           </font></Label>
+                     </children>
+                  </VBox>
+                  <VBox>
+                     <children>
+                        <Label fx:id="day1" text="Tuesday">
+                            <font>
+                                <Font size="24" />
+                            </font></Label>
+                        <Label fx:id="day1Info" alignment="TOP_LEFT" prefHeight="396.0" prefWidth="250.0" text="DayInfo">
+                           <font>
+                              <Font size="18.0" />
+                           </font></Label>
+                     </children>
+                  </VBox>
+                  <VBox>
+                     <children>
+                        <Label fx:id="day2" text="Wednesday">
+                         <font>
+                             <Font size="24" />
+                         </font></Label>
+                        <Label fx:id="day2Info" alignment="TOP_LEFT" prefHeight="396.0" prefWidth="250.0" text="DayInfo">
+                           <font>
+                              <Font size="18.0" />
+                           </font></Label>
+                     </children>
+                  </VBox>
+                  <VBox>
+                     <children>
+                        <Label fx:id="day3" text="Thursday">
+                         <font>
+                             <Font size="24" />
+                         </font></Label>
+                        <Label fx:id="day3Info" alignment="TOP_LEFT" prefHeight="396.0" prefWidth="250.0" text="DayInfo">
+                           <font>
+                              <Font size="18.0" />
+                           </font></Label>
+                     </children>
+                  </VBox>
+                  <VBox>
+                     <children>
+                        <Label fx:id="day4" text="Friday">
+                         <font>
+                             <Font size="24" />
+                         </font></Label>
+                        <Label fx:id="day4Info" alignment="TOP_LEFT" prefHeight="396.0" prefWidth="250.0" text="DayInfo">
+                           <font>
+                              <Font size="18.0" />
+                           </font></Label>
+                     </children>
+                  </VBox>
+                  <VBox>
+                     <children>
+                        <Label fx:id="day5" text="Saturday">
+                         <font>
+                             <Font size="24" />
+                         </font></Label>
+                        <Label fx:id="day5Info" alignment="TOP_LEFT" prefHeight="396.0" prefWidth="250.0" text="DayInfo">
+                           <font>
+                              <Font size="18.0" />
+                           </font></Label>
+                     </children>
+                  </VBox>
+                  <VBox>
+                     <children>
+                        <Label fx:id="day6" text="Sunday">
+                           <font>
+                              <Font size="24" />
+                           </font></Label>
+                        <Label fx:id="day6Info" alignment="TOP_LEFT" prefHeight="396.0" prefWidth="250.0" text="DayInfo">
+                           <font>
+                              <Font size="18.0" />
+                           </font></Label>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER">
+               <children>
+                  <Button fx:id="addAppiontment" mnemonicParsing="false" onAction="#AddAppiontment" text="Add Appiontment">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
